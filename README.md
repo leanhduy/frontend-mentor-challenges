@@ -1,2 +1,3 @@
-# frontend-mentor-challenges
-Coding challenges (project-based) on frontendmentor.io
+# Frontend Mentor - Challenges
+
+## Challenge #1 - QR Code

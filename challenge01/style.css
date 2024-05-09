@@ -1,0 +1,69 @@
+html {
+    background-color: #D5E1EF;
+    font-family: 'Outfit', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.qrcode-container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    width: 20rem;
+}
+
+.qrcode-image {
+    background-image: url('./images/image-qr-code.png');
+    background-size: 100% 100%;
+    border-radius: 10px;
+    height: 18rem;
+    margin: 0 auto;
+    position: relative;
+    top: 1rem;
+    width: 18rem;
+}
+
+.qrcode-description {
+    margin: 1.5rem auto;
+    text-align: center;
+    width: 18rem;
+}
+
+.title {
+    color: #1F314F;
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding: 1rem 1rem 0;
+    text-shadow: 0 .25rem 0.25rem rgba(0, 0, 0, .25);
+}
+
+.secondary {
+    color: #7D889E;
+    font-weight: 400;
+    letter-spacing: 0.19px;
+    margin-top: 1rem;
+    padding: 0 .75rem 3rem;
+}
+
+/* Mobile */
+@media(min-width: 375px) {
+    .qrcode-container {
+        top: 5.3125rem;
+    }
+}
+
+/* Desktop */
+@media(min-width: 800px) {
+    .qrcode-container {
+        top: 1rem;
+    }
+}
+
+.attribution {
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
