@@ -1,0 +1,60 @@
+/* MY CODE HERE */
+.qrcode-description>p {
+    color: #7D889E;
+}
+
+@media(min-width: 400px) {
+    .qrcode-container {
+        height: 60%;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .qrcode-description {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 65%;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        height: 288px;
+        width: 288px;
+    }
+
+    /* STARTER CODE */
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media(min-width: 600px) {
+    .qrcode-container {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    img {
+        border-radius: 10px;
+        height: 288px;
+        width: 288px;
+    }
+
+    /* STARTER CODE */
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
