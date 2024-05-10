@@ -23,20 +23,20 @@ body {
     top: 13.65625rem;
 }
 
-.blogimage {
+.card-header {
     margin: 1.5rem 1.5rem .75rem;
 }
 
-.blogimage img {
+.card-header__image {
     width: 100%;
     border-radius: 10px;
 }
 
-.content {
+.card-body {
     margin: .75rem auto;
 }
 
-.category {
+.card-body__category {
     background-color: var(--primary-color);
     border-radius: 4px;
     color: var(--secondary-color);
@@ -47,24 +47,24 @@ body {
     width: 5.125rem;
 }
 
-p.publishdate {
+.card-body__publishdate {
     font-weight: 500;
     line-height: 150%;
     margin: .375rem 0;
 }
 
-h1.title {
+.card-body__title {
     color: var(--primary-color);
     margin: .375rem 0;
 }
 
-p.description {
+.card-body__description {
     color: var(--trivial-color);
     line-height: 150%;
     margin: .375rem 0 0 0;
 }
 
-.author {
+.card-footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -73,11 +73,11 @@ p.description {
     height: 2rem;
 }
 
-.author img {
+.card-footer__image {
     height: 100%;
 }
 
-.author p {
+.card-footer__author {
     font-size: .875rem;
     font-weight: 800;
     line-height: 150%;
@@ -90,19 +90,20 @@ p.description {
         width: 20.4375rem;
     }
 
-    .category {
-        font-size: .875rem;
-    }
-
-    .content {
+    .card-body {
         width: 17.4375rem;
     }
 
-    p.publishdate {
+    .card-body__category {
+        font-size: .875rem;
+    }
+
+
+    .card-body__publishdate {
         font-size: .75rem;
     }
 
-    h1.title {
+    .card-body__title {
         font-size: 1.25rem;
     }
 
@@ -115,19 +116,19 @@ p.description {
         width: 24rem;
     }
 
-    .category {
-        font-size: 1rem;
-    }
-
-    .content {
+    .card-body {
         width: 21rem;
     }
 
-    p.publishdate {
+    .card-body__category {
+        font-size: 1rem;
+    }
+
+    .card-body__publishdate {
         font-size: .875rem;
     }
 
-    h1.title {
+    .card-body__title {
         font-size: 1.5rem;
     }
 }
