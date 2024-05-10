@@ -1,9 +1,3 @@
-a {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
 .card {
     /* border: 1px solid black; */
     border-radius: 10px;
@@ -19,9 +13,14 @@ a {
     margin: 0 auto;
 }
 
-.card img {
+.card-image {
     border-radius: 10px;
     margin-bottom: .25rem;
+}
+
+.card-link {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .attribution {
@@ -35,7 +34,7 @@ a {
     text-align: center;
 }
 
-.attribution a {
+.attribution-link {
     text-decoration: none;
     color: white;
 }
