@@ -1,11 +1,27 @@
 a {
     font-weight: bold;
     text-decoration: none;
-    font-size: 1rem;
 }
 
-a:hover {
-    font-size: 1.1rem;
+
+.card {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: center;
+    width: 300px;
+}
+
+.card * {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card img {
+    border-radius: 10px;
+    margin-bottom: .25rem;
 }
 
 .attribution {
