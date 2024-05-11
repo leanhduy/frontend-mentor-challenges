@@ -4,30 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/styles/index.css">
   <title>Frontend Mentor - Challenges</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
+  <main>
+    <!-- List of challenge as a list -->
+    <div class="container">
+      <ul class="card-list">
+        <li class="card-item">
+          <a href="/challenge01/challenge01.html">
+            <img src="/images/ch01/cover_196.png" alt="challenge avatar" class="card-item__thumbnail">
+            <div class="card-item__content">
+              <h3 class="card-item__name">QR code component</h3>
+              <p class="card-item__description">A perfect first challenge if you're new to HTML and CSS.</p>
+            </div>
+          </a>
+        </li>
+        <li class="card-item">
+          <a href="/challenge02/challenge02.html">
+            <img src="/images/ch02/cover_196.png" alt="challenge avatar" class="card-item__thumbnail">
+            <div class="card-item__content">
+              <h3 class="card-item__name">Blog Card Review</h3>
+              <p class="card-item__description">Can you find a way to reduce font size for smaller screens without using
+                media
+                queries?</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
 
-  <header>
-    <h1>Frontend Mentor Challenges</h1>
-  </header>
-  <nav>
-    <div class="card">
-      <img class="card-image" src="./images/c01_cover.png" />
-      <a class="card-link" href="/challenge01/challenge01.html">Challenge #1: QR Code</a>
-    </div>
-    <div class="card">
-      <img src="./images/c02_cover.svg" />
-      <a class="card-link" href="/challenge02/challenge02.html">Challenge #2: Blog Preview Card</a>
-    </div>
-  </nav>
   <footer>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      @2024 - Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a class="attribution-link" href="https://github.com/leanhduy/frontend-mentor-challenges">Duy Le</a>.
     </div>
   </footer>
