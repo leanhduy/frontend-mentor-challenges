@@ -8,6 +8,15 @@ html {
     --third-fg: #d8d8d8;
 }
 
+a {
+    color: var(--primary-fg);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--primary-fg)
+}
+
 body {
     color: var(--primary-fg);
     background-color: var(--primary-bg);
@@ -17,7 +26,9 @@ body {
     background-color: var(--secondary-bg);
     border-radius: 10px;
     margin: 0 auto;
+    position: relative;
     text-align: center;
+    top: 7.5rem;
     width: 21rem;
 }
 
@@ -58,4 +69,9 @@ body {
     margin: .875rem auto;
     padding: 1rem 0;
     width: 90%;
+}
+
+.card-link:hover {
+    color: var(--primary-bg);
+    background-color: var(--secondary-fg);
 }
