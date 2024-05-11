@@ -40,13 +40,11 @@ a:visited {
 
 .card-item:hover {
     transform: scale(1.01);
-    /* cursor: pointer; */
 }
 
 .card-item__thumbnail {
-    border-radius: 50%;
-    width: 72px;
     height: 72px;
+    width: 72px;
 }
 
 .card-item__content {
