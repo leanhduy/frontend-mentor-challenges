@@ -1,0 +1,78 @@
+/* PAGE CSS & VARIABLES */
+html {
+    background-color: var(--secondary-bg);
+    font-family: "Outfit", sans-serif;
+    --main-color: #000;
+    --secondary-color: #777;
+    --main-bg: #fff;
+    --secondary-bg: #ddd;
+    --shadow: #aaa;
+}
+
+a:visited {
+    color: var(--main-color);
+}
+
+/* CONTENT */
+.container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.card-item a {
+    align-items: center;
+    background-color: var(--main-bg);
+    border-radius: 20px;
+    box-shadow: .1rem .1rem 1rem var(--shadow);
+    display: flex;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+    transition: transform .2s;
+    /* Animation */
+}
+
+.card-item:hover {
+    transform: scale(1.01);
+    /* cursor: pointer; */
+}
+
+.card-item__thumbnail {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+}
+
+.card-item__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: .75rem;
+}
+
+.card-item__content * {
+    margin: 0;
+}
+
+.card-item__description {
+    color: var(--secondary-color)
+}
+
+/* FOOTER */
+.attribution {
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.attribution-link {
+    text-decoration: none;
+}
