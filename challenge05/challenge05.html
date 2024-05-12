@@ -18,9 +18,8 @@
   <div class="product-card">
     <div class="product-card__image">
       <picture>
-        <source media="(max-width: 795px)" srcset="/images/ch05/image-product-mobile.jpg">
         <source media="(min-width: 796px)" srcset="/images/ch05/image-product-desktop.jpg">
-        <img src="/images/ch05/image-product-desktop.jpg" alt="product image">
+        <img src="/images/ch05/image-product-mobile.jpg" alt="product image">
       </picture>
     </div>
     <div class="product-card__content">
@@ -38,11 +37,9 @@
         <h1 class="product-price__discount">$149.99</h1>
         <p class="product-price__original">$169.99</p>
       </div>
-      <div class="button-wrapper">
-        <img class="button-icon" src="/images/ch05/icon-cart.svg" alt="cart icon" />
-        <span class="button-label">Add to Cart</span>
-      </div>
+      <button class="button-add" data-icon="cart">Add to Cart</button>
     </div>
+  </div>
   </div>
 </body>
 
