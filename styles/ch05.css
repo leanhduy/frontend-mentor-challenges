@@ -75,6 +75,8 @@ picture {
 
 .product-price__discount {
     color: var(--text-primary);
+    font-size: 2.5rem;
+    font-weight: 700;
     margin: 0 0;
     padding-right: 1.5rem;
 }
