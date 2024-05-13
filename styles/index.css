@@ -9,23 +9,36 @@ html {
     --shadow: #aaa;
 }
 
-a:visited {
-    color: var(--main-color);
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* ANIMATION */
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 /* CONTENT */
 .container {
-    width: 80%;
-    margin: 2rem auto;
-}
-
-.card-list {
-    list-style-type: none;
+    width: 50%;
     margin: 0 auto;
-    padding-left: 0;
 }
 
-.card-item a {
+.card-item {
+    animation-name: fadein;
+    animation-duration: 1s;
     align-items: center;
     background-color: var(--main-bg);
     border-radius: 20px;
@@ -35,16 +48,20 @@ a:visited {
     padding: 1rem;
     text-decoration: none;
     transition: transform .2s;
-    /* Animation */
 }
 
 .card-item:hover {
     transform: scale(1.01);
 }
 
-.card-item__thumbnail {
+.card-item__thumbnail img {
     height: 72px;
     width: 72px;
+}
+
+.card-item__name {
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .card-item__content {
@@ -62,13 +79,18 @@ a:visited {
 }
 
 /* FOOTER */
+footer a,
+footer a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
 .attribution {
-    left: 0;
-    margin: 0 auto;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    text-align: center;
+    background-color: #777;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .attribution-link {
