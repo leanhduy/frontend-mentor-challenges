@@ -183,22 +183,3 @@ p {
         width: 70%;
     }
 }
-
-/* Footer */
-.attribution {
-    color: white;
-    background-color: var(--text-color1);
-    text-align: center;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.attribution a,
-.attribution a:hover,
-.attribution a:focus,
-.attribution a:visited {
-    color: white;
-    text-decoration: underline;
-}
